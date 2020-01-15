@@ -346,7 +346,7 @@ window.vSummary = {
       if (hash.mergegroup) {
         this.isMergeGroup = convertBool(hash.mergegroup);
       }
-      if (hash.since) {
+      if (hash.since) {dsg
         this.tmpFilterSinceDate = hash.since;
       }
       if (hash.until) {
