@@ -30,7 +30,7 @@
             option(v-bind:value='false') Ascending
           label.medium-font order
       .searchbox
-        input.radio-button--search(
+        input.radio-button(
           type="radio",
           value="search",
           v-model="filterType",
@@ -50,7 +50,7 @@
             v-on:click="indicateSearchBar(); updateSearchBarValue();"
           ) Filter
       .fileTypes
-        input.radio-button--checkbox(
+        input.radio-button(
           type="radio",
           value="checkboxes",
           v-model="filterType",
